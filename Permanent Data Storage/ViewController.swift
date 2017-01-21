@@ -14,7 +14,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        UserDefaults.standard.set("Torben Mæhle - mr. cool", forKey: "name")
+        UserDefaults.standard.set("Torben Mæhle - mr. cool -yes", forKey: "name")
         
         let nameObject = UserDefaults.standard.object(forKey: "name")
         
